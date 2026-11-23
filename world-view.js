@@ -143,7 +143,7 @@ function drawSimilarityLinks(parent,points,neighbors,sizes=null){
    el('path',{d:'M0,0L8,4L0,8Z',fill:color,'fill-opacity':.9,stroke:'none','shape-rendering':'geometricPrecision'},marker);attrs['marker-end']=`url(#${id})`;
   }
   const line=el('path',attrs,parent),relation=directed?'→':edge.mutual?'↔':'—';
-  el('title',{},line).textContent=`${D.records[edge.source].label} ${relation} ${D.records[edge.target].label} · Cosine similarity ${edge.similarity.toFixed(3)}${edge.mutual?' · Mutual nearest neighbors':''}`;
+  el('title',{},line).textContent=`${D.records[edge.source].label} ${relation} ${D.records[edge.target].label} · Cosine similarity ${similarityPercent(edge.similarity)}${edge.mutual?' · Mutual nearest neighbors':''}`;
  });
 }
 function renderWorld(){
@@ -194,7 +194,7 @@ function renderWorld(){
    for(const w of words){if(line&&(line+' '+w).length>10){chunks.push(line);line=w;}else line+=(line?' ':'')+w;}if(line)chunks.push(line);
    chunks.forEach((t,j)=>el('tspan',{x:$('worldphotos').checked?p[0]:a[0],dy:j?9:0},text).textContent=t);
   }
-  const info=`${r.label} · Cluster ${assignment[i]+1} · ${D.cluster_info[k][assignment[i]].name}\nCosine similarity to ${D.records[selected].label}: ${D.similarities[selected][i].toFixed(3)}`;
+  const info=`${r.label} · Cluster ${assignment[i]+1} · ${D.cluster_info[k][assignment[i]].name}\nCosine similarity to ${D.records[selected].label}: ${similarityPercent(D.similarities[selected][i])}`;
   el('title',{},g).textContent=info;if(g!==dot)el('title',{},dot).textContent=info;
   for(const target of new Set([g,dot])){
    // Selecting a face must not start the map's mouse/touch drag gesture.
