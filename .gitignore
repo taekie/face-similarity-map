@@ -3,6 +3,7 @@ __pycache__/
 .DS_Store
 *.zip
 /data/*
+!/data/cluster-names.json
 !/data/geography.json
 !/data/world-compact.geojson
 !/data/source-provenance.json

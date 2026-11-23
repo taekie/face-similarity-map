@@ -6,6 +6,8 @@ An interactive world map exploring visual similarities between 41 composite port
 
 Select a portrait to see its nearest faces and cosine similarities. Click outside to clear the selection. Options below the map control portrait size, 2–15 clusters (default 10), cluster hulls, and a directed nearest-neighbor graph. Reciprocal nearest neighbors use two separated arrows. Portraits stay the same screen size as the map zooms.
 
+Cluster names summarize the regions in the supplied labels. `data/cluster-names.json` names all 28 distinct member sets found across k=2–15; a group retains its name when its members are unchanged. Color-matched hull labels avoid portraits and other names and are repositioned during zoom. These names do not infer ancestry.
+
 Design by [@taekie](https://x.com/taekie).
 
 ## Build and deploy

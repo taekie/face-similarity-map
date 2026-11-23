@@ -1,0 +1,333 @@
+{
+  "basis": "Geographic summaries of the supplied labels; not inferred ancestry. Names follow member sets across cluster counts.",
+  "groups": [
+    {
+      "name": "Across regions",
+      "members": [
+        "Afghan",
+        "Burmese",
+        "Cambodian",
+        "Chinese",
+        "English",
+        "Filipino",
+        "Finnish",
+        "French",
+        "German",
+        "Greek",
+        "Hungarian",
+        "Indian",
+        "Iranian",
+        "Irish",
+        "Israeli",
+        "Italian",
+        "Japanese",
+        "Korean",
+        "Latvian/Lithuanian",
+        "Mexican",
+        "Mongolian",
+        "Peruvian",
+        "Polish",
+        "Puerto Rican",
+        "Romanian",
+        "Russian",
+        "Samoan",
+        "South African",
+        "South Indian",
+        "Spaniard",
+        "Swedish",
+        "Swiss",
+        "Taiwanese",
+        "Thai",
+        "Uzbek",
+        "Vietnamese",
+        "Welsh"
+      ]
+    },
+    {
+      "name": "Africa · African American",
+      "members": [
+        "African American",
+        "Central African",
+        "Ethiopian",
+        "West African"
+      ]
+    },
+    {
+      "name": "Europe & other regions",
+      "members": [
+        "Afghan",
+        "English",
+        "Finnish",
+        "French",
+        "German",
+        "Greek",
+        "Hungarian",
+        "Indian",
+        "Iranian",
+        "Irish",
+        "Israeli",
+        "Italian",
+        "Latvian/Lithuanian",
+        "Mexican",
+        "Peruvian",
+        "Polish",
+        "Puerto Rican",
+        "Romanian",
+        "Russian",
+        "Samoan",
+        "South African",
+        "South Indian",
+        "Spaniard",
+        "Swedish",
+        "Swiss",
+        "Welsh"
+      ]
+    },
+    {
+      "name": "East/Southeast Asia · Central Asia",
+      "members": [
+        "Burmese",
+        "Cambodian",
+        "Chinese",
+        "Filipino",
+        "Japanese",
+        "Korean",
+        "Mongolian",
+        "Taiwanese",
+        "Thai",
+        "Uzbek",
+        "Vietnamese"
+      ]
+    },
+    {
+      "name": "Asia · Americas · Africa · Pacific",
+      "members": [
+        "Afghan",
+        "Indian",
+        "Iranian",
+        "Mexican",
+        "Peruvian",
+        "Puerto Rican",
+        "Samoan",
+        "South African",
+        "South Indian",
+        "Spaniard"
+      ]
+    },
+    {
+      "name": "Europe · West Asia",
+      "members": [
+        "English",
+        "Finnish",
+        "French",
+        "German",
+        "Greek",
+        "Hungarian",
+        "Irish",
+        "Israeli",
+        "Italian",
+        "Latvian/Lithuanian",
+        "Polish",
+        "Romanian",
+        "Russian",
+        "Swedish",
+        "Swiss",
+        "Welsh"
+      ]
+    },
+    {
+      "name": "Americas · Iberia · Southern Africa · Afghanistan",
+      "members": [
+        "Afghan",
+        "Mexican",
+        "Peruvian",
+        "Puerto Rican",
+        "South African",
+        "Spaniard"
+      ]
+    },
+    {
+      "name": "South/West Asia · Pacific",
+      "members": [
+        "Indian",
+        "Iranian",
+        "Samoan",
+        "South Indian"
+      ]
+    },
+    {
+      "name": "Americas · Iberia · Southern Africa",
+      "members": [
+        "Mexican",
+        "Peruvian",
+        "Puerto Rican",
+        "South African",
+        "Spaniard"
+      ]
+    },
+    {
+      "name": "Afghanistan",
+      "members": [
+        "Afghan"
+      ]
+    },
+    {
+      "name": "South Asia · Iran",
+      "members": [
+        "Indian",
+        "Iranian",
+        "South Indian"
+      ]
+    },
+    {
+      "name": "Samoa",
+      "members": [
+        "Samoan"
+      ]
+    },
+    {
+      "name": "Europe",
+      "members": [
+        "English",
+        "Finnish",
+        "French",
+        "German",
+        "Irish",
+        "Italian",
+        "Latvian/Lithuanian",
+        "Polish",
+        "Russian",
+        "Swedish",
+        "Swiss",
+        "Welsh"
+      ]
+    },
+    {
+      "name": "Central/Southeast Europe · Israel",
+      "members": [
+        "Greek",
+        "Hungarian",
+        "Israeli",
+        "Romanian"
+      ]
+    },
+    {
+      "name": "West/Central Africa · African American",
+      "members": [
+        "African American",
+        "Central African",
+        "West African"
+      ]
+    },
+    {
+      "name": "Ethiopia",
+      "members": [
+        "Ethiopian"
+      ]
+    },
+    {
+      "name": "Continental Europe · Ireland",
+      "members": [
+        "French",
+        "German",
+        "Irish",
+        "Italian",
+        "Latvian/Lithuanian",
+        "Polish",
+        "Swedish",
+        "Swiss"
+      ]
+    },
+    {
+      "name": "Britain · Finland · Russia",
+      "members": [
+        "English",
+        "Finnish",
+        "Russian",
+        "Welsh"
+      ]
+    },
+    {
+      "name": "Americas · Southern Africa",
+      "members": [
+        "Mexican",
+        "Peruvian",
+        "Puerto Rican",
+        "South African"
+      ]
+    },
+    {
+      "name": "Spain",
+      "members": [
+        "Spaniard"
+      ]
+    },
+    {
+      "name": "Western Europe · Poland · Baltics",
+      "members": [
+        "French",
+        "Irish",
+        "Latvian/Lithuanian",
+        "Polish"
+      ]
+    },
+    {
+      "name": "Central Europe · Italy · Sweden",
+      "members": [
+        "German",
+        "Italian",
+        "Swedish",
+        "Swiss"
+      ]
+    },
+    {
+      "name": "Hungary · Romania · Israel",
+      "members": [
+        "Hungarian",
+        "Israeli",
+        "Romanian"
+      ]
+    },
+    {
+      "name": "Greece",
+      "members": [
+        "Greek"
+      ]
+    },
+    {
+      "name": "East/Southeast Asia · Central Asia",
+      "members": [
+        "Burmese",
+        "Cambodian",
+        "Filipino",
+        "Japanese",
+        "Mongolian",
+        "Taiwanese",
+        "Thai",
+        "Uzbek",
+        "Vietnamese"
+      ]
+    },
+    {
+      "name": "China · Korea",
+      "members": [
+        "Chinese",
+        "Korean"
+      ]
+    },
+    {
+      "name": "Latin America · Caribbean",
+      "members": [
+        "Mexican",
+        "Peruvian",
+        "Puerto Rican"
+      ]
+    },
+    {
+      "name": "South Africa",
+      "members": [
+        "South African"
+      ]
+    }
+  ]
+}
