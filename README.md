@@ -4,7 +4,7 @@ An interactive world map exploring visual similarities between 41 composite port
 
 **Live site:** https://taekie.github.io/face-similarity-map/
 
-Select a portrait to see its nearest faces and cosine similarities. Click outside to clear the selection. Options below the map control portrait size, 2–15 clusters (default 10), cluster hulls, and a directed nearest-neighbor graph. Reciprocal nearest neighbors use two separated arrows. Portraits stay the same screen size as the map zooms.
+Select a portrait to see its nearest faces and cosine similarities. Click outside to clear the selection. Options below the map control portrait size, 2–15 clusters (default 10), cluster hulls, and a directed nearest-neighbor graph. Reciprocal nearest neighbors use two separated arrows. Portraits stay the same screen size as the map zooms. The map starts at the top of the page and uses its full width, with only the title fixed at the upper left; nearest faces appear in a floating panel at its upper right only while a portrait is selected. Click outside or use the panel’s close button to clear the selection.
 
 Cluster names summarize the regions in the supplied labels. `data/cluster-names.json` names all 28 distinct member sets found across k=2–15; a group retains its name when its members are unchanged. Color-matched hull labels avoid portraits and other names and are repositioned during zoom. These names do not infer ancestry.
 

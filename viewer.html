@@ -8,12 +8,15 @@
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
 <style>
-:root{color-scheme:light;font-family:Inter,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif;color:#242b30;background:#f6f5f1}*{box-sizing:border-box}body{margin:0}header{padding:22px 32px;border-bottom:1px solid #deded8}h1{font-size:28px;font-weight:620;letter-spacing:-1px;margin:0}.cluster-control{display:flex;align-items:center;gap:6px}.cluster-step{width:30px;height:31px;padding:0;font-size:17px;line-height:1}.cluster-step:disabled{opacity:.35;cursor:default}.toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;padding:14px 24px;background:#eeeee8;font-size:12px}label{display:flex;gap:8px;align-items:center}select,input,button{font:inherit}select,button{padding:7px 9px;border:1px solid #cccfc7;border-radius:6px;background:#fff}button{cursor:pointer}main{display:grid;grid-template-columns:minmax(0,1fr) 300px;max-width:1600px;margin:auto}#map{width:100%;height:auto;min-height:600px;display:block;touch-action:none}.node,.geo-anchor{cursor:pointer}.node:focus{outline:none}.node:focus .photo-frame,.node:hover .photo-frame{stroke:#697780;stroke-width:1.5}.cluster-hull{stroke-linejoin:round}.cluster-label text{font-size:11px;font-weight:600;letter-spacing:.05px}.selected-copy{min-width:0}.cluster-name{display:block;font-size:11px;line-height:1.4;color:#737b76;margin-top:5px}aside{padding:24px 20px;border-left:1px solid #deded8}h2{font-size:17px;margin:0 0 18px}.selected{display:flex;align-items:center;gap:13px;margin-bottom:20px}.selected img{width:96px;height:96px;border-radius:14px}.selected strong{font-size:18px;min-width:0;overflow-wrap:anywhere;line-height:1.3}.map-figure{min-width:0;margin:0}.caption{font-size:11px;line-height:1.7;color:#79817c;padding:16px 24px 20px}.caption p{margin:0 0 7px}.caption p:last-child{margin:0}.caption strong{font-weight:600;color:#606d65}.caption a{color:#69796f;text-underline-offset:2px}.link-legend{display:flex;align-items:center;gap:6px;font-size:10px;color:#65736b}.link-legend[hidden]{display:none}.legend-ramp{width:85px;height:7px;border-radius:3px}.metric{font-size:11px;color:#737b76;margin:0 0 9px}.neighbor{position:relative;overflow:hidden;display:flex;width:100%;align-items:center;gap:10px;margin:8px 0;text-align:left;padding:7px 8px;border-color:#e1e2dc;border-radius:9px;background:#fbfbf8}.sidebar-portrait{display:inline-flex;flex:0 0 auto;align-items:center;gap:6px}.sidebar-portrait::before{content:"";display:block;align-self:stretch;flex:0 0 4px;border-radius:2px;background:var(--cluster-color)}.sidebar-portrait img{display:block;flex:0 0 auto}.neighbor img{width:44px;height:44px;border-radius:9px}.neighbor span{flex:1;font-size:12px}.neighbor b{font-size:15px}@media(max-width:850px){header{padding:20px}h1{font-size:25px}.toolbar{padding:12px 20px;gap:10px}main{grid-template-columns:1fr}#map{min-height:0}aside{border-left:0;border-top:1px solid #deded8}}
+:root{color-scheme:light;font-family:Inter,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif;color:#242b30;background:#f6f5f1}*{box-sizing:border-box}body{margin:0}.map-title{position:fixed;top:22px;left:32px;z-index:6;pointer-events:none;font-size:28px;font-weight:620;letter-spacing:-1px;margin:0;color:#242b30;text-shadow:0 1px 5px #f6f5f1}.cluster-control{display:flex;align-items:center;gap:6px}.cluster-step{width:30px;height:31px;padding:0;font-size:17px;line-height:1}.cluster-step:disabled{opacity:.35;cursor:default}.toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;padding:14px 24px;background:#eeeee8;font-size:12px}label{display:flex;gap:8px;align-items:center}select,input,button{font:inherit}select,button{padding:7px 9px;border:1px solid #cccfc7;border-radius:6px;background:#fff}button{cursor:pointer}main{width:100%;margin:0}.map-stage{position:relative}#map{width:100%;height:auto;min-height:600px;display:block;touch-action:none}.node,.geo-anchor{cursor:pointer}.node:focus{outline:none}.node:focus .photo-frame,.node:hover .photo-frame{stroke:#697780;stroke-width:1.5}.cluster-hull{stroke-linejoin:round}.cluster-label text{font-size:11px;font-weight:600;letter-spacing:.05px}.selected-copy{min-width:0}.cluster-name{display:block;font-size:11px;line-height:1.4;color:#737b76;margin-top:5px}aside{position:absolute;top:16px;right:16px;z-index:5;width:300px;max-width:calc(100% - 32px);max-height:calc(100% - 32px);overflow-y:auto;overscroll-behavior:contain;padding:20px;background:#fbfbf8;border:1px solid #deded8;border-radius:14px;box-shadow:0 8px 32px #243c381c}.panel-header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}.panel-header h2{margin:0}.panel-close{display:grid;place-items:center;width:28px;height:28px;padding:0;border:0;border-radius:6px;background:transparent;color:#737b76;font-size:22px;line-height:1}.panel-close:hover{background:#eeeee8;color:#242b30}h2{font-size:17px;margin:0 0 18px}.selected{display:flex;align-items:center;gap:13px;margin-bottom:20px}.selected img{width:96px;height:96px;border-radius:14px}.selected strong{font-size:18px;min-width:0;overflow-wrap:anywhere;line-height:1.3}.map-figure{min-width:0;margin:0}.caption{font-size:11px;line-height:1.7;color:#79817c;padding:16px 24px 20px}.caption p{margin:0 0 7px}.caption p:last-child{margin:0}.caption strong{font-weight:600;color:#606d65}.caption a{color:#69796f;text-underline-offset:2px}.link-legend{display:flex;align-items:center;gap:6px;font-size:10px;color:#65736b}.link-legend[hidden]{display:none}.legend-ramp{width:85px;height:7px;border-radius:3px}.metric{font-size:11px;color:#737b76;margin:0 0 9px}.neighbor{position:relative;overflow:hidden;display:flex;width:100%;align-items:center;gap:10px;margin:8px 0;text-align:left;padding:7px 8px;border-color:#e1e2dc;border-radius:9px;background:#fbfbf8}.sidebar-portrait{display:inline-flex;flex:0 0 auto;align-items:center;gap:6px}.sidebar-portrait::before{content:"";display:block;align-self:stretch;flex:0 0 4px;border-radius:2px;background:var(--cluster-color)}.sidebar-portrait img{display:block;flex:0 0 auto}.neighbor img{width:44px;height:44px;border-radius:9px}.neighbor span{flex:1;font-size:12px}.neighbor b{font-size:15px}@media(max-width:850px){.map-title{top:18px;left:20px;font-size:25px}.toolbar{padding:12px 20px;gap:10px}#map{min-height:0}aside{top:60px;right:12px;width:280px;max-width:calc(100% - 24px);max-height:calc(100% - 72px);padding:16px}}
 </style>
-<header><h1>Face Similarity Map</h1></header>
+<h1 class="map-title">Face Similarity Map</h1>
 <main>
 <figure class="map-figure">
+<div class="map-stage">
 <svg id="map" viewBox="-60 -35 1220 720" aria-label="World map of face similarities"></svg>
+<aside id="nearestFaces" aria-labelledby="nearestHeading" hidden><div class="panel-header"><h2 id="nearestHeading">Nearest faces</h2><button id="closeNearest" class="panel-close" type="button" aria-label="Clear selection" title="Clear selection">×</button></div><div id="selection"></div></aside>
+</div>
 <div class="toolbar" aria-label="Map options">
 <div class="cluster-control"><label for="k">Clusters</label><button id="kMinus" class="cluster-step" type="button" aria-label="Decrease cluster count">−</button><select id="k" aria-label="Number of clusters"></select><button id="kPlus" class="cluster-step" type="button" aria-label="Increase cluster count">＋</button></div>
 <label>Face size <input id="size" type="range" min="26" max="99" value="48" aria-label="Face size"></label>
@@ -31,7 +34,6 @@
 <p class="design-credit">Design by <a href="https://x.com/taekie" target="_blank" rel="noopener noreferrer">@taekie</a></p>
 </figcaption>
 </figure>
-<aside id="nearestFaces" hidden><h2>Nearest faces</h2><div id="selection"></div></aside>
 </main>
 <script>__D3_BUNDLE__</script>
 <script>
@@ -62,9 +64,11 @@ function render(){
  $('linkLegend').hidden=!(linksVisible||$('nearestGraph').checked);
  $('legendLow').textContent=LINK_COLOR_DOMAIN[0].toFixed(2);$('legendHigh').textContent=LINK_COLOR_DOMAIN[1].toFixed(2);
  $('legendRamp').style.background=`linear-gradient(to right,${d3.range(0,1.01,.1).map(t=>d3.interpolateYlGnBu(t)).join(',')})`;
+ sidebar();
  renderWorld();
 }
 function stepClusters(delta){const value=+$('k').value,next=Math.max(2,Math.min(15,value+delta));if(next!==value){$('k').value=next;render();}}
+$('closeNearest').onclick=clearLinks;
 $('nearestGraph').onchange=()=>{linksVisible=false;render();};
 $('kMinus').onclick=()=>stepClusters(-1);
 $('kPlus').onclick=()=>stepClusters(1);
@@ -75,5 +79,7 @@ $('kPlus').onclick=()=>stepClusters(1);
 document.addEventListener('click',e=>{
  if(!e.target.closest('.node,.geo-anchor,.geo-marker,.neighbor,.toolbar,aside'))clearLinks();
 });
+let resizeFrame=null;
+window.addEventListener('resize',()=>{cancelAnimationFrame(resizeFrame);resizeFrame=requestAnimationFrame(render);});
 render();
 </script></html>

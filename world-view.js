@@ -32,6 +32,12 @@ function drawClusterNames(parent,regions,points,sizes,showLabels){
   const labelWidth=showLabels?Math.min(70,D.records[i].label.length*4.4):0;
   return {x:p[0]-Math.max(half,labelWidth/2)-3,y:p[1]-half-3,w:Math.max(half*2,labelWidth)+6,h:half*2+labelHeight+6};
  });
+ const panel=$('nearestFaces'),overlays=[document.querySelector('.map-title'),...(!panel.hidden?[panel]:[])];
+ for(const overlay of overlays){
+  const bounds=overlay.getBoundingClientRect(),inverse=$('map').getScreenCTM().inverse();
+  const a=new DOMPoint(bounds.left-6,bounds.top-6).matrixTransform(inverse),b=new DOMPoint(bounds.right+6,bounds.bottom+6).matrixTransform(inverse);
+  obstacles.push({x:a.x,y:a.y,w:b.x-a.x,h:b.y-a.y});
+ }
  const overlap=(a,b)=>Math.max(0,Math.min(a.x+a.w,b.x+b.w)-Math.max(a.x,b.x))*Math.max(0,Math.min(a.y+a.h,b.y+b.h)-Math.max(a.y,b.y));
  // Small hulls have fewer nearby placement choices, so reserve their space first.
  const ordered=regions.slice().sort((a,b)=>Math.abs(d3.polygonArea(a.hull))-Math.abs(d3.polygonArea(b.hull)));
@@ -216,5 +222,4 @@ function renderWorld(){
   })
   .on('end',()=>{if(!zoomMoved)return;if(overlayFrame!==null){cancelAnimationFrame(overlayFrame);overlayFrame=null;}drawOverlays();});
  d3.select(svg).call(zoom);svg.__zoom=worldTransform;
- sidebar();
 }
