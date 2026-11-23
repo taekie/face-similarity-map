@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.DS_Store
+*.zip
+/data/*
+!/data/geography.json
+!/data/world-compact.geojson
+!/data/source-provenance.json
+/output/*
+!/output/analysis.json
+!/output/cosine-distances.npy
+!/output/embeddings.npy

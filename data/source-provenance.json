@@ -1,0 +1,13 @@
+{
+  "credit": "The Postnational Monitor — World of Averages / World of Facial Averages",
+  "tool": "FaceResearch.org online face averager",
+  "method": "Align and average multiple photographed faces into composite portraits",
+  "primary_image_source": "https://pmsol3.wordpress.com/2009/10/10/world-of-facial-averages-east-southeast-asia-pacific-islander/",
+  "other_primary_series_page": "https://pmsol3.wordpress.com/2011/04/07/world-of-averages-europeave/",
+  "creator_tool_distinction": "Lisa DeBruine states that the images used her website tools, but were not created by her or her research team.",
+  "primary_expert_statement": "https://feministphilosophers.wordpress.com/2011/02/06/the-average-face-of-women-across-the-world/",
+  "statement_date": "2011-02-15",
+  "source_sampling_statement": "According to DeBruine’s quotation of the creator, sources were mostly Google Images and approximately 15–20 images were selected. These are not representative population averages.",
+  "visual_check": "Downloaded KoreanAverageWoman and ChineseAverageWoman from the primary post and compared with the supplied composite grid; face appearance and blended backgrounds correspond. No biometric comparison was used.",
+  "uncertainty": "The editor, date and source chain of the exact 41-cell collage are not established. Credit identifies the underlying portrait series, not a confirmed compiler of this layout."
+}

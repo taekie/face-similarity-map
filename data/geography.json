@@ -1,0 +1,412 @@
+{
+  "Uzbek": {
+    "coordinates": [
+      64.005429,
+      41.693603
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "UZB",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Welsh": {
+    "coordinates": [
+      -3.6,
+      52.3
+    ],
+    "kind": "영국의 구성 지역",
+    "note": "영국 웨일스의 개략적 대표점",
+    "country_code": "",
+    "source": "수동 지정: 지도 표시를 위한 개략적 좌표"
+  },
+  "West African": {
+    "coordinates": [
+      -2,
+      10
+    ],
+    "kind": "광역 지역",
+    "note": "서아프리카 광역의 개략적 대표점. 특정 국가를 뜻하지 않음",
+    "country_code": "",
+    "source": "수동 지정: 지도 표시를 위한 개략적 좌표"
+  },
+  "Vietnamese": {
+    "coordinates": [
+      105.387292,
+      21.715416
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "VNM",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Chinese": {
+    "coordinates": [
+      106.337289,
+      32.498178
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "CHN",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Hungarian": {
+    "coordinates": [
+      19.447867,
+      47.086841
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "HUN",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Japanese": {
+    "coordinates": [
+      138.44217,
+      36.142538
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "JPN",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Korean": {
+    "coordinates": [
+      128.129504,
+      36.384924
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음; 원문 Korean은 대한민국 대표점으로 표시했으며 원문의 세부 범위는 확인되지 않음",
+    "country_code": "KOR",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Puerto Rican": {
+    "coordinates": [
+      -66.481065,
+      18.234668
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "PRI",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Thai": {
+    "coordinates": [
+      101.073198,
+      15.45974
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "THA",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "African American": {
+    "coordinates": [
+      -98,
+      38
+    ],
+    "kind": "집단의 대표 표시",
+    "note": "미국 내 집단 라벨을 미국의 개략적 대표점에 표시. 조상 출신지나 실제 거주지 아님",
+    "country_code": "",
+    "source": "수동 지정: 지도 표시를 위한 개략적 좌표"
+  },
+  "Afghan": {
+    "coordinates": [
+      66.496586,
+      34.164262
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "AFG",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Central African": {
+    "coordinates": [
+      20,
+      2
+    ],
+    "kind": "광역 지역",
+    "note": "중앙아프리카 광역의 개략적 대표점. 중앙아프리카공화국으로 해석하지 않음",
+    "country_code": "",
+    "source": "수동 지정: 지도 표시를 위한 개략적 좌표"
+  },
+  "Burmese": {
+    "coordinates": [
+      95.804497,
+      21.573855
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "MMR",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Cambodian": {
+    "coordinates": [
+      104.50487,
+      12.647584
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "KHM",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "English": {
+    "coordinates": [
+      -1.5,
+      52.5
+    ],
+    "kind": "영국의 구성 지역",
+    "note": "영국 잉글랜드의 개략적 대표점",
+    "country_code": "",
+    "source": "수동 지정: 지도 표시를 위한 개략적 좌표"
+  },
+  "Ethiopian": {
+    "coordinates": [
+      39.0886,
+      8.032795
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "ETH",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Filipino": {
+    "coordinates": [
+      122.465,
+      11.198
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "PHL",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Finnish": {
+    "coordinates": [
+      27.276449,
+      63.252361
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "FIN",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "French": {
+    "coordinates": [
+      2.552275,
+      46.696113
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "FRA",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "German": {
+    "coordinates": [
+      9.678348,
+      50.961733
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "DEU",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Greek": {
+    "coordinates": [
+      21.72568,
+      39.492763
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "GRC",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Indian": {
+    "coordinates": [
+      79.358105,
+      22.686852
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "IND",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Iranian": {
+    "coordinates": [
+      54.931495,
+      32.166225
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "IRN",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Irish": {
+    "coordinates": [
+      -7.798588,
+      53.078726
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "IRL",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Israeli": {
+    "coordinates": [
+      34.847915,
+      30.911148
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "ISR",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Italian": {
+    "coordinates": [
+      11.076907,
+      44.732482
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "ITA",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Mexican": {
+    "coordinates": [
+      -102.289448,
+      23.919988
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "MEX",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Latvian/Lithuanian": {
+    "coordinates": [
+      24.5,
+      56.2
+    ],
+    "kind": "복합 라벨",
+    "note": "라트비아·리투아니아를 함께 가리키는 복합 라벨의 개략적 중간점",
+    "country_code": "",
+    "source": "수동 지정: 지도 표시를 위한 개략적 좌표"
+  },
+  "Mongolian": {
+    "coordinates": [
+      104.150405,
+      45.997488
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "MNG",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Peruvian": {
+    "coordinates": [
+      -72.90016,
+      -12.976679
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "PER",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Polish": {
+    "coordinates": [
+      19.490468,
+      51.990316
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "POL",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Romanian": {
+    "coordinates": [
+      24.972624,
+      45.733237
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "ROU",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Russian": {
+    "coordinates": [
+      44.686469,
+      58.249357
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "RUS",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Samoan": {
+    "coordinates": [
+      -172.1,
+      -13.8
+    ],
+    "kind": "지역·집단의 대표 표시",
+    "note": "사모아 제도의 대표점으로 사모아 부근을 선택. 미국령 사모아를 포함한 범위는 원문에서 확인되지 않음",
+    "country_code": "",
+    "source": "수동 지정: 지도 표시를 위한 개략적 좌표"
+  },
+  "South African": {
+    "coordinates": [
+      23.665734,
+      -29.708776
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "ZAF",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "South Indian": {
+    "coordinates": [
+      78,
+      11.5
+    ],
+    "kind": "국가 내 지역",
+    "note": "인도 남부 지역의 개략적 대표점",
+    "country_code": "",
+    "source": "수동 지정: 지도 표시를 위한 개략적 좌표"
+  },
+  "Spaniard": {
+    "coordinates": [
+      -3.464718,
+      40.090953
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "ESP",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Swedish": {
+    "coordinates": [
+      19.01705,
+      65.85918
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "SWE",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Swiss": {
+    "coordinates": [
+      7.463965,
+      46.719114
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "CHE",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  },
+  "Taiwanese": {
+    "coordinates": [
+      120.868204,
+      23.652408
+    ],
+    "kind": "국가·영토 라벨",
+    "note": "Natural Earth 국가·영토 표시용 대표 좌표. 실제 촬영지나 개인 출신지를 뜻하지 않음",
+    "country_code": "TWN",
+    "source": "Natural Earth LABEL_X/LABEL_Y"
+  }
+}
